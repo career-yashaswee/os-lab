@@ -1,0 +1,11 @@
+echo "first input is:$1"
+echo "second input is:$2"
+echo "thid input is:$3"
+echo "value of all the cla passed:$*"
+echo "count of CLA passed:$#"
+echo "name of script:$0"
+echo "PID of bash:$$"
+echo "$_"
+echo "$%"
+echo "%^"
+
