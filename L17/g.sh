@@ -1,6 +1,5 @@
 echo enter file name
-read f
-if [ -e $f ]
+if [ -e $1 ]
 then
 echo file exists
 else
